@@ -37,6 +37,7 @@ public class Job implements Comparable<Job> {
     /**
      * Нужно нажать на красную лампочку в имени класса и выбрать добавить имплементацию метода compareTo
      * В интерфейсе Comparable нужно указать обобщенный тип данных. В нашем случае это сам класс Job.
+     * Здесь можно задать поле для сортировки (по приоритету)
      */
     @Override
     public int compareTo(Job another) {
