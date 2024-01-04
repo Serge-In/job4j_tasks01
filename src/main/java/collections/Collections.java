@@ -5,12 +5,13 @@ import java.util.Collection;
 
 /**
  * 2023-12-21
+ * Коллекции
  * Урок 1
  * 1. Интерфейс Collection [#504820]
  * CollectionUsage
  */
 
-public class Lesson1 {
+public class Collections {
     public static void main(String[] args) {
         colAdd();
         colAddAll();
@@ -94,6 +95,7 @@ public class Lesson1 {
         for (String string : collection) {
             System.out.println(string);
         }
+
     }
 
     public static void colAddAll() {
