@@ -1,4 +1,4 @@
-package iff;
+package exesises.iff;
 
 import org.junit.Test;
 

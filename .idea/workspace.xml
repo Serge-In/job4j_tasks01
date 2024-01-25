@@ -4,25 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8c9a70c-1262-481c-9972-2865dd4f95e4" name="Changes" comment=" 1. Интерфейс Collection [#504820] ref">
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/IfElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/boxing/AutoBoxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/ConvertList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/arrayList/test1/ArrList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/arrayList/test2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/arrayList/test2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/arrayList/test3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/arrayList/test3/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test4/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test5sort/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test5sort/JobSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datatypes/string/StringType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/first/test001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/SwitchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/collections/ConvertListTest.java" afterDir="false" />
+    <list default="true" id="b8c9a70c-1262-481c-9972-2865dd4f95e4" name="Changes" comment="LexSort">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Kotlin/test01/test.ws.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test4/test8userSort/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test6sort/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test6sort/JobImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test6sort/JobSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test6sort/SortByNameJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test6sort/SortDescByNameJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test9exam/ArrayReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test9exam/ExamCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test9exam/ExamLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test9exam/PrimitiveParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test9exam/RefTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datatypes/string/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/collections/test8userSort/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/collections/test9exam/ExamCollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/collections/test9exam/ExamLambdaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/Lesson1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/Collections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iff/Task54.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/test5sort/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/test5sort/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/iff/Task54Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exesises/iff/Task54Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Worksheet" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
@@ -66,45 +70,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/projects/job4j_tasks01/src/main/java/collections/arrayList/test3&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/projects/job4j_tasks01",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.general"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="collections.test6sort" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\job4j_tasks01\src\main\java\collections\test6sort" />
       <recent name="C:\projects\job4j_tasks01\src\main\java\collections\arrayList\test3" />
       <recent name="C:\projects\job4j_tasks01" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\job4j_tasks01\src\main\Kotlin\test01" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="if_114" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="collections.test9exam" />
+      <recent name="collections.test8" />
+      <recent name="collections.test8userSort" />
       <recent name="collections" />
       <recent name="base" />
-      <recent name="if_114" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collections.test8" />
+      <recent name="collections.test8userSort" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JobSorter">
-    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.Collections" />
+  <component name="RunManager" selected="Application.ArrayReturn">
+    <configuration name="ArrayReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.test9exam.ArrayReturn" />
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.arrayList.test1.*" />
+          <option name="PATTERN" value="collections.test9exam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.test5sort.JobSorter" />
+    <configuration name="ExamCollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.test9exam.ExamCollectionTest" />
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.test5sort.*" />
+          <option name="PATTERN" value="collections.test9exam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.test1.Main" />
+    <configuration name="PrimitiveParam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.test9exam.PrimitiveParam" />
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.test1.*" />
+          <option name="PATTERN" value="collections.test9exam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.test4.Sort" />
+    <configuration name="RefTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.test9exam.RefTask" />
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.arrayList.test5sort.*" />
+          <option name="PATTERN" value="collections.test9exam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,26 +166,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="collections.arrayList.test3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.arrayList.test3.Main" />
+    <configuration name="ExamCollectionTest.main81" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.arrayList.test3.*" />
+          <option name="PATTERN" value="collections.test9exam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="collections.test9exam" />
+      <option name="MAIN_CLASS_NAME" value="collections.test9exam.ExamCollectionTest" />
+      <option name="METHOD_NAME" value="main81" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JobSorter" />
-        <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.collections.arrayList.test3.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Collections" />
+        <item itemvalue="Application.ArrayReturn" />
+        <item itemvalue="Application.PrimitiveParam" />
+        <item itemvalue="Application.RefTask" />
+        <item itemvalue="Application.ExamCollectionTest" />
+        <item itemvalue="JUnit.ExamCollectionTest.main81" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +236,35 @@
       <option name="project" value="LOCAL" />
       <updated>1703171639777</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1704389787418</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704389787418</updated>
+    </task>
+    <task id="LOCAL-00007" summary="comparator">
+      <created>1704401564638</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704401564638</updated>
+    </task>
+    <task id="LOCAL-00008" summary="TreeSet">
+      <created>1704575522660</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704575522660</updated>
+    </task>
+    <task id="LOCAL-00009" summary="LexSort">
+      <created>1704707090817</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704707090817</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +295,12 @@
     <MESSAGE value="53. Преобразовать трехзначное число в зависимости от условия refactor" />
     <MESSAGE value=" 1. Интерфейс Collection [#504820]" />
     <MESSAGE value=" 1. Интерфейс Collection [#504820] ref" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 1. Интерфейс Collection [#504820] ref" />
+    <MESSAGE value="update" />
+    <MESSAGE value="comparator" />
+    <MESSAGE value="1. Организовать сортировку User [#10034]" />
+    <MESSAGE value="TreeSet" />
+    <MESSAGE value="LexSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="LexSort" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

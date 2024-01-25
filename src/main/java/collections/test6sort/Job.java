@@ -1,14 +1,14 @@
-package collections.test5sort;
+package collections.test6sort;
+
+import java.util.Comparator;
 
 /**
- * 2024-01-04
- * 0. Сортировка [#10096]
- * Давайте рассмотрим модель данных Job.
- * Наша задача написать для него сортировку по возрастанию по полю priority, а так же сделать сортировку по имени по возрастанию.
- * Для этого мы в классе Job реализуем интерфейс java.util.Comparable<Job>
+ * 2024-01-05
+ * рефакторинг test5sort:
+ * Пробую внести изменения в класс Job, добавив методы сортировки по убыванию в сам класс
  */
 
-public class Job implements Comparable<Job>  {
+public abstract class Job implements Comparable<Job>, Comparator<Job> {
     private String name;
 
     private int priority;
