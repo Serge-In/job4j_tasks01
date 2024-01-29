@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8c9a70c-1262-481c-9972-2865dd4f95e4" name="Changes" comment="tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/test9exam/Varargs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dharma/Satyan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alishev/Volatile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/aston/TestAston.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/collections/test9exam/VarargsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/ArraysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/ListOfANDArraysAsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/ListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/test9exam/ArrayReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/test9exam/ArrayReturn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +98,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Volatile">
+  <component name="RunManager" selected="JUnit.ListTest.main2">
     <configuration name="Volatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="alishev.Volatile" />
       <module name="tracker" />
@@ -149,33 +144,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTest.main1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="datatypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.Print" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="datatypes" />
+      <option name="MAIN_CLASS_NAME" value="datatypes.ListTest" />
+      <option name="METHOD_NAME" value="main1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTest.main2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="datatypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.Print" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="PACKAGE_NAME" value="datatypes" />
+      <option name="MAIN_CLASS_NAME" value="datatypes.ListTest" />
+      <option name="METHOD_NAME" value="main2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ListTest.main2" />
+        <item itemvalue="JUnit.ListTest.main1" />
         <item itemvalue="Application.Volatile" />
         <item itemvalue="JUnit.ListOfANDArraysAsList.test3" />
         <item itemvalue="JUnit.ListOfANDArraysAsList.test2" />
-        <item itemvalue="JUnit.Print.test5" />
-        <item itemvalue="JUnit.Print.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706175596318</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tests">
+      <created>1706513556337</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706513556337</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

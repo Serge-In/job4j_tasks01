@@ -1,5 +1,7 @@
 package collections.test9exam;
 
+import org.testng.annotations.Test;
+
 /**
  * 2024-01-25
  * 32 из 32. Ссылочный тип данных - массив. Изменение значения ячейки на -1.
@@ -25,5 +27,10 @@ public class ArrayReturn {
         System.out.println("ar.values[0] : " + ar.values[0]);
         System.out.println("immutable[0] : " + immutable[0]);
         System.out.println("ri[0] : " + ri[0]);
+    }
+
+    @Test
+    public static void main1() {
+        System.out.println("test");
     }
 }
