@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8c9a70c-1262-481c-9972-2865dd4f95e4" name="Changes" comment="tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/HashTableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/math/RandomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/datatypes/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datatypes/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/datatypes/HashTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datatypes/HashTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/datatypes/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datatypes/Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/datatypes/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datatypes/TimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Template.main">
+  <component name="RunManager" selected="TestNG.RandomTest.main">
     <configuration name="TimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datatypes.TimeTest" />
       <module name="tracker" />
@@ -114,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayList.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashTableTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
@@ -123,24 +122,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="datatypes" />
-      <option name="MAIN_CLASS_NAME" value="datatypes.MyArrayList" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyArrayList.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tracker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datatypes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="datatypes" />
-      <option name="MAIN_CLASS_NAME" value="datatypes.MyArrayList" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="datatypes.HashTableTest" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,13 +161,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomTest.main" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math" />
+      <option name="MAIN_CLASS_NAME" value="math.RandomTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Template.main" />
+        <item itemvalue="TestNG.RandomTest.main" />
+        <item itemvalue="JUnit.HashTableTest.main" />
         <item itemvalue="JUnit.TimeTest.main" />
+        <item itemvalue="JUnit.Template.main" />
         <item itemvalue="Application.TimeTest" />
-        <item itemvalue="JUnit.MyArrayList.test2" />
-        <item itemvalue="JUnit.MyArrayList.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706522697275</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tests">
+      <created>1706601759596</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706601759596</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

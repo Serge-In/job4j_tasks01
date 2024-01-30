@@ -1,6 +1,6 @@
 package datatypes;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
 /**
  * 2024-01-26
