@@ -13,6 +13,8 @@ import java.util.List;
  * List можно с дубликатами
  */
 public class ListTest {
+    private List<String> arrayList;
+
     @Test
     public void main1() {
         List<String> arrayList = new ArrayList<>();
@@ -55,6 +57,18 @@ public class ListTest {
         System.out.println("arrayList : " + arrayList); //arrayList : [zero, first]
         List<String> arrayListNew = new ArrayList<>(arrayList.size() + 1);
 
+        //java.lang.ArrayIndexOutOfBoundsException: arraycopy: last destination index 2 out of bounds for object array[0]
+        //System.arraycopy(arrayList.stream().toArray(), 0, arrayListNew.stream().toArray(), 0, 2);
+
+        //java.lang.ArrayStoreException: arraycopy: source type java.util.ArrayList is not an array
+        //String[] arrNew2 = System.arraycopy(arrayList.stream().toArray(), 0, new String[arrayList.size()+1], 0, 2);
+
+
+        //java.lang.ArrayIndexOutOfBoundsException: arraycopy: last destination index 1 out of bounds for object array[0]
+        //System.arraycopy(arrayList.stream().toArray(), 0, arrayListNew.stream().toArray(), 0, 1);
+
+
+
         //для типа arrayList этот метод не работает
         //java.lang.ArrayStoreException: arraycopy: source type java.util.ArrayList is not an array
         //System.arraycopy(arrayList, 0, arrayListNew, 0, arrayList.size());
@@ -88,16 +102,27 @@ public class ListTest {
         // 2 способ
         System.out.println("arrNew : " + Arrays.toString(arrNew)); //arrNew : [zero, first, null]
 
-        // так не работает
+        // так список элементов не выводится
         System.out.println("arrNew : " + arrNew.toString()); //arrNew : [Ljava.lang.String;@161b062a
 
-        //java.lang.ArrayStoreException: arraycopy: source type java.util.ArrayList is not an array
-        //System.arraycopy(arrayList.stream().toArray(), 0, arrayListNew.stream().toArray(), 0, 1);
+    }
 
-        //java.lang.ArrayIndexOutOfBoundsException: arraycopy: last destination index 1 out of bounds for object array[0]
-        //System.arraycopy(arrayList.stream().toArray(), 0, arrayListNew.stream().toArray(), 0, 1);
+    public void setArrayList () {
+        //List<String> this.arrayList = new ArrayList<>();
+        arrayList.add(0, "zero");
+        arrayList.add(1, "first");
+    }
+    @Test
+    public void main() {
+        List<String> arrayList = new ArrayList<>();
+        arrayList.add(0, "zero");
+        arrayList.add(1, "first");
+        System.out.println(arrayList.toString());
 
+        System.out.println(arrayList.stream().toArray().toString());
 
+        Object[] arrNew = arrayList.toArray();
+        System.out.println(arrNew.toString());
 
     }
 }

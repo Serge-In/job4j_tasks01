@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8c9a70c-1262-481c-9972-2865dd4f95e4" name="Changes" comment="tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/ListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/HashTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datatypes/TimeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/test9exam/ArrayReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/test9exam/ArrayReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/datatypes/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datatypes/ListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,13 +100,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ListTest.main2">
-    <configuration name="Volatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alishev.Volatile" />
+  <component name="RunManager" selected="JUnit.Template.main">
+    <configuration name="TimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datatypes.TimeTest" />
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alishev.*" />
+          <option name="PATTERN" value="datatypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListOfANDArraysAsList.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArrayList.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
@@ -121,14 +123,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="datatypes" />
-      <option name="MAIN_CLASS_NAME" value="datatypes.ListOfANDArraysAsList" />
+      <option name="MAIN_CLASS_NAME" value="datatypes.MyArrayList" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayList.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datatypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="datatypes" />
+      <option name="MAIN_CLASS_NAME" value="datatypes.MyArrayList" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListOfANDArraysAsList.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Template.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
@@ -137,14 +155,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="datatypes" />
-      <option name="MAIN_CLASS_NAME" value="datatypes.ListOfANDArraysAsList" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="datatypes.Template" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.main1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
@@ -153,24 +171,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="datatypes" />
-      <option name="MAIN_CLASS_NAME" value="datatypes.ListTest" />
-      <option name="METHOD_NAME" value="main1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest.main2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tracker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datatypes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="datatypes" />
-      <option name="MAIN_CLASS_NAME" value="datatypes.ListTest" />
-      <option name="METHOD_NAME" value="main2" />
+      <option name="MAIN_CLASS_NAME" value="datatypes.TimeTest" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ListTest.main2" />
-        <item itemvalue="JUnit.ListTest.main1" />
-        <item itemvalue="Application.Volatile" />
-        <item itemvalue="JUnit.ListOfANDArraysAsList.test3" />
-        <item itemvalue="JUnit.ListOfANDArraysAsList.test2" />
+        <item itemvalue="JUnit.Template.main" />
+        <item itemvalue="JUnit.TimeTest.main" />
+        <item itemvalue="Application.TimeTest" />
+        <item itemvalue="JUnit.MyArrayList.test2" />
+        <item itemvalue="JUnit.MyArrayList.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706513556337</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="tests">
+      <created>1706522697275</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706522697275</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
