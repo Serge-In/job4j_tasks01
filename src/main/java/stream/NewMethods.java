@@ -54,7 +54,7 @@ public class NewMethods {
      */
     @Test
     public static void main3() {
-        //List.of(null, 1, 2, null, 4, null) // не пройдет, тк лист нельзя создать с null
+        //List.of(1, 2, null, 4, null) // не пройдет, тк лист нельзя создать с null
 
         Stream.of(null, 1, 2, null, 4, null)
                 .flatMap(Stream::ofNullable)
