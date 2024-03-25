@@ -18,6 +18,7 @@ public class ArrayReturn {
         System.out.println(this.values[0]);
     }
 
+    //@Test
     public static void main(String[] args) {
         ArrayReturn ar = new ArrayReturn();
         final int[] immutable = {1};
@@ -30,7 +31,7 @@ public class ArrayReturn {
     }
 
     @Test
-    public static void main1() {
+    public static void main2() {
         System.out.println("test");
     }
 }

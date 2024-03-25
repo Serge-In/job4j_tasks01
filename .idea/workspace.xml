@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8c9a70c-1262-481c-9972-2865dd4f95e4" name="Changes" comment="tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/math/RandomTest.java" afterDir="false" />
+    <list default="true" id="b8c9a70c-1262-481c-9972-2865dd4f95e4" name="Changes" comment=".map().keySet()">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/ListLambdaUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/MostUsedSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/ScopeInside.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search/MyClassGPT35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search/MyClassGPT4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search/PhoneDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search/PhoneDictionaryFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search/PhoneDictionaryFunc2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/StreamTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/StreamUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/student/mytest/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/student/mytest/Student2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/search/PhoneDictionaryFunc2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/search/PhoneDictionaryFuncTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/datatypes/HashTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datatypes/HashTableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/datatypes/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datatypes/Template.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/datatypes/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datatypes/TimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/test9exam/ArrayReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/test9exam/ArrayReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/student/gpt35/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/student/gpt35/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Worksheet" />
+        <option value="Clojure Namespace" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
@@ -36,16 +50,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ZZ8m8k0xz6pEAdOlsdnPFntcP5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,14 +66,67 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayReturn (1).executor": "Run",
+    "Application.ArrayReturn (2).executor": "Run",
+    "Application.ArrayReturn.executor": "Run",
+    "Application.College.executor": "Run",
+    "Application.CollegeKeySet.executor": "Run",
+    "Application.ListLambdaUsage.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Maybe.executor": "Run",
+    "Application.MyClassGPT35.executor": "Run",
+    "Application.MyClassGPT4.executor": "Run",
+    "Application.StreamTest1.executor": "Run",
+    "Application.StreamTest2 (1).executor": "Run",
+    "Application.StreamTest2 (2).executor": "Run",
+    "Application.StreamTest2 (3).executor": "Run",
+    "Application.StreamTest2 (4).executor": "Run",
+    "Application.StreamTest2 (5).executor": "Run",
+    "Application.StreamTest2.executor": "Debug",
+    "Application.StreamUsage.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.Student2.executor": "Run",
+    "Application.stream.student.mytest.Student.executor": "Run",
+    "JUnit.PhoneDictionaryFunc2Test.executor": "Run",
+    "JUnit.PhoneDictionaryFuncTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ArrayReturn.main.executor": "Run",
+    "TestNG.ArrayReturn.main1.executor": "Run",
+    "TestNG.ArrayReturn.main2.executor": "Run",
+    "TestNG.Match.main.executor": "Run",
+    "TestNG.StreamTest1.main10.executor": "Run",
+    "TestNG.StreamTest1.main11.executor": "Run",
+    "TestNG.StreamTest1.main12.executor": "Run",
+    "TestNG.StreamTest1.main13.executor": "Run",
+    "TestNG.StreamTest1.main14.executor": "Run",
+    "TestNG.StreamTest1.main15.executor": "Run",
+    "TestNG.StreamTest1.main16.executor": "Run",
+    "TestNG.StreamTest1.main17.executor": "Run",
+    "TestNG.StreamTest1.main18.executor": "Run",
+    "TestNG.StreamTest1.main19.executor": "Run",
+    "TestNG.StreamTest1.main2.executor": "Run",
+    "TestNG.StreamTest1.main20.executor": "Run",
+    "TestNG.StreamTest1.main3.executor": "Run",
+    "TestNG.StreamTest1.main4.executor": "Run",
+    "TestNG.StreamTest1.main5.executor": "Run",
+    "TestNG.StreamTest1.main6.executor": "Run",
+    "TestNG.StreamTest1.main7.executor": "Run",
+    "TestNG.StreamTest1.main8.executor": "Run",
+    "TestNG.StreamTest1.main9.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/projects/job4j_tasks01",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/projects/job4j_tasks01/src/test/java/search",
+    "last_opened_file_path": "C:/projects/job4j_tasks01/src/main/java/stream",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,6 +134,8 @@
       <recent name="collections.test6sort" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\job4j_tasks01\src\main\java\stream" />
+      <recent name="C:\projects\job4j_tasks01\src\main\java\lambda" />
       <recent name="C:\projects\job4j_tasks01\src\main\java\collections\test6sort" />
       <recent name="C:\projects\job4j_tasks01\src\main\java\collections\arrayList\test3" />
       <recent name="C:\projects\job4j_tasks01" />
@@ -79,33 +144,64 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\job4j_tasks01\src\main\clojure" />
       <recent name="C:\projects\job4j_tasks01\src\main\Kotlin\test01" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="if_114" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="search" />
       <recent name="collections.test9exam" />
       <recent name="collections.test8" />
       <recent name="collections.test8userSort" />
       <recent name="collections" />
-      <recent name="base" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda" />
       <recent name="service" />
       <recent name="datatypes" />
       <recent name="collections.test8" />
       <recent name="collections.test8userSort" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RandomTest.main">
-    <configuration name="TimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datatypes.TimeTest" />
+  <component name="ReplState" timestamp="1706766543994">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="RunManager" selected="Application.CollegeKeySet">
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <option name="configVersion" value="1" />
+      <option name="options" />
+      <option name="profiles" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="College" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.map.College" />
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datatypes.*" />
+          <option name="PATTERN" value="stream.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,64 +209,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTableTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollegeKeySet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.map.CollegeKeySet" />
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datatypes.*" />
+          <option name="PATTERN" value="stream.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="datatypes" />
-      <option name="MAIN_CLASS_NAME" value="datatypes.HashTableTest" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Template.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Match.main" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datatypes.*" />
+          <option name="PATTERN" value="stream.match.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="datatypes" />
-      <option name="MAIN_CLASS_NAME" value="datatypes.Template" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tracker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datatypes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="datatypes" />
-      <option name="MAIN_CLASS_NAME" value="datatypes.TimeTest" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomTest.main" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="tracker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="math" />
-      <option name="MAIN_CLASS_NAME" value="math.RandomTest" />
+      <option name="PACKAGE_NAME" value="stream.match" />
+      <option name="MAIN_CLASS_NAME" value="stream.match.Match" />
       <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -179,15 +240,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamTest1.main19" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stream" />
+      <option name="MAIN_CLASS_NAME" value="stream.StreamTest1" />
+      <option name="METHOD_NAME" value="main19" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest1.main20" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stream" />
+      <option name="MAIN_CLASS_NAME" value="stream.StreamTest1" />
+      <option name="METHOD_NAME" value="main20" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.College" />
+      <item itemvalue="Application.CollegeKeySet" />
+      <item itemvalue="TestNG.Match.main" />
+      <item itemvalue="TestNG.StreamTest1.main19" />
+      <item itemvalue="TestNG.StreamTest1.main20" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RandomTest.main" />
-        <item itemvalue="JUnit.HashTableTest.main" />
-        <item itemvalue="JUnit.TimeTest.main" />
-        <item itemvalue="JUnit.Template.main" />
-        <item itemvalue="Application.TimeTest" />
+        <item itemvalue="Application.CollegeKeySet" />
+        <item itemvalue="Application.College" />
+        <item itemvalue="TestNG.Match.main" />
+        <item itemvalue="TestNG.StreamTest1.main20" />
+        <item itemvalue="TestNG.StreamTest1.main19" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -289,7 +400,85 @@
       <option name="project" value="LOCAL" />
       <updated>1706601759596</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="tests">
+      <created>1706607312568</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706607312568</updated>
+    </task>
+    <task id="LOCAL-00015" summary="tests">
+      <created>1706634817276</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706634817276</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Мона́да">
+      <option name="closed" value="true" />
+      <created>1710664483963</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710664483963</updated>
+    </task>
+    <task id="LOCAL-00017" summary="StreamTest1">
+      <option name="closed" value="true" />
+      <created>1710669322255</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710669322255</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Prompt for GPT35: use Stream.Api">
+      <option name="closed" value="true" />
+      <created>1710841912278</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710841912278</updated>
+    </task>
+    <task id="LOCAL-00019" summary="stream().map() vs stream().peek()">
+      <option name="closed" value="true" />
+      <created>1711027831880</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711027831880</updated>
+    </task>
+    <task id="LOCAL-00020" summary="stream().skip() .limit() .findFirst() .orElse()">
+      <option name="closed" value="true" />
+      <created>1711100721808</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711100721808</updated>
+    </task>
+    <task id="LOCAL-00021" summary=".stream.reduce() vs .parallelStream().reduce()">
+      <option name="closed" value="true" />
+      <created>1711203583876</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711203583876</updated>
+    </task>
+    <task id="LOCAL-00022" summary="noneMatch(), anyMatch() и allMatch()">
+      <option name="closed" value="true" />
+      <created>1711207767361</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711207767361</updated>
+    </task>
+    <task id="LOCAL-00023" summary=".map().keySet()">
+      <option name="closed" value="true" />
+      <created>1711302476158</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711302476158</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,7 +515,15 @@
     <MESSAGE value="TreeSet" />
     <MESSAGE value="LexSort" />
     <MESSAGE value="tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+    <MESSAGE value="Мона́да" />
+    <MESSAGE value="StreamTest1" />
+    <MESSAGE value="Prompt for GPT35: use Stream.Api" />
+    <MESSAGE value="stream().map() vs stream().peek()" />
+    <MESSAGE value="stream().skip() .limit() .findFirst() .orElse()" />
+    <MESSAGE value=".stream.reduce() vs .parallelStream().reduce()" />
+    <MESSAGE value="noneMatch(), anyMatch() и allMatch()" />
+    <MESSAGE value=".map().keySet()" />
+    <option name="LAST_COMMIT_MESSAGE" value=".map().keySet()" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
