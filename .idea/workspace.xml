@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8c9a70c-1262-481c-9972-2865dd4f95e4" name="Changes" comment=".map().keySet()">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/ListLambdaUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/MostUsedSymbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/ScopeInside.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/MyClassGPT35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/MyClassGPT4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/PhoneDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/PhoneDictionaryFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/PhoneDictionaryFunc2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/StreamTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/StreamUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/student/mytest/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/student/mytest/Student2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/search/PhoneDictionaryFunc2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/search/PhoneDictionaryFuncTest.java" afterDir="false" />
+    <list default="true" id="b8c9a70c-1262-481c-9972-2865dd4f95e4" name="Changes" comment="how to create map">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exeption/SimpleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exeption/SimpleModelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/test9exam/ArrayReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/test9exam/ArrayReturn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stream/student/gpt35/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/student/gpt35/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +20,7 @@
         <option value="Kotlin Worksheet" />
         <option value="Clojure Namespace" />
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -89,13 +75,24 @@
     "Application.stream.student.mytest.Student.executor": "Run",
     "JUnit.PhoneDictionaryFunc2Test.executor": "Run",
     "JUnit.PhoneDictionaryFuncTest.executor": "Run",
+    "JUnit.SimpleModelTest.checkGetName.executor": "Run",
+    "JUnit.SimpleModelTest.checkMessage.executor": "Run",
+    "JUnit.SimpleModelTest.executor": "Run",
+    "JUnit.StudentLevelTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.ArrayReturn.main.executor": "Run",
     "TestNG.ArrayReturn.main1.executor": "Run",
     "TestNG.ArrayReturn.main2.executor": "Run",
+    "TestNG.CreateMap.main.executor": "Run",
+    "TestNG.CreateMap.main2.executor": "Run",
+    "TestNG.CreateMap.main3.executor": "Run",
     "TestNG.Match.main.executor": "Run",
+    "TestNG.NewMethods.main1.executor": "Run",
+    "TestNG.NewMethods.main2.executor": "Run",
+    "TestNG.NewMethods.main3.executor": "Run",
+    "TestNG.NewMethods.main6.executor": "Run",
     "TestNG.StreamTest1.main10.executor": "Run",
     "TestNG.StreamTest1.main11.executor": "Run",
     "TestNG.StreamTest1.main12.executor": "Run",
@@ -115,13 +112,23 @@
     "TestNG.StreamTest1.main7.executor": "Run",
     "TestNG.StreamTest1.main8.executor": "Run",
     "TestNG.StreamTest1.main9.executor": "Run",
+    "TestNG.StreamTest3.main1.executor": "Run",
+    "TestNG.StreamTest3.main2.executor": "Run",
+    "TestNG.StreamTest3.main20.executor": "Run",
+    "TestNG.StreamTest3.main3.executor": "Run",
+    "TestNG.StreamTest3.main4.executor": "Run",
+    "TestNG.StreamTest3.main5.executor": "Run",
+    "TestNG.StreamTest3.main6.executor": "Run",
+    "TestNG.Test1.main1.executor": "Run",
+    "TestNG.Test1.main2.executor": "Run",
+    "TestNG.Test1.main3.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/projects/job4j_tasks01/src/test/java/search",
-    "last_opened_file_path": "C:/projects/job4j_tasks01/src/main/java/stream",
+    "last_directory_selection": "C:/projects/job4j_tasks01/src/test/java",
+    "last_opened_file_path": "C:/projects/job4j_design",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -131,6 +138,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="exeption" />
       <recent name="collections.test6sort" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -148,25 +156,26 @@
       <recent name="C:\projects\job4j_tasks01\src\main\Kotlin\test01" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="stream.improved" />
       <recent name="if_114" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="exeption" />
+      <recent name="stream.improved" />
       <recent name="search" />
       <recent name="collections.test9exam" />
       <recent name="collections.test8" />
-      <recent name="collections.test8userSort" />
-      <recent name="collections" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stream.improved" />
       <recent name="lambda" />
       <recent name="service" />
       <recent name="datatypes" />
       <recent name="collections.test8" />
-      <recent name="collections.test8userSort" />
     </key>
   </component>
   <component name="ReplState" timestamp="1706766543994">{:repl-history {:ide [], :local [], :remote []}}</component>
-  <component name="RunManager" selected="Application.CollegeKeySet">
+  <component name="RunManager" selected="TestNG.CreateMap.main3">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -196,42 +205,47 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="College" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.map.College" />
+    <configuration name="SimpleModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.map.*" />
+          <option name="PATTERN" value="exeption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="exeption" />
+      <option name="MAIN_CLASS_NAME" value="exeption.SimpleModelTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollegeKeySet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.map.CollegeKeySet" />
+    <configuration name="SimpleModelTest.checkMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.map.*" />
+          <option name="PATTERN" value="exeption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="exeption" />
+      <option name="MAIN_CLASS_NAME" value="exeption.SimpleModelTest" />
+      <option name="METHOD_NAME" value="checkMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Match.main" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateMap.main" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.match.*" />
+          <option name="PATTERN" value="map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stream.match" />
-      <option name="MAIN_CLASS_NAME" value="stream.match.Match" />
+      <option name="PACKAGE_NAME" value="map" />
+      <option name="MAIN_CLASS_NAME" value="map.CreateMap" />
       <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -240,17 +254,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest1.main19" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateMap.main2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamTest1" />
-      <option name="METHOD_NAME" value="main19" />
+      <option name="PACKAGE_NAME" value="map" />
+      <option name="MAIN_CLASS_NAME" value="map.CreateMap" />
+      <option name="METHOD_NAME" value="main2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -258,17 +272,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest1.main20" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateMap.main3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamTest1" />
-      <option name="METHOD_NAME" value="main20" />
+      <option name="PACKAGE_NAME" value="map" />
+      <option name="MAIN_CLASS_NAME" value="map.CreateMap" />
+      <option name="METHOD_NAME" value="main3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -277,19 +291,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.College" />
-      <item itemvalue="Application.CollegeKeySet" />
-      <item itemvalue="TestNG.Match.main" />
-      <item itemvalue="TestNG.StreamTest1.main19" />
-      <item itemvalue="TestNG.StreamTest1.main20" />
+      <item itemvalue="JUnit.SimpleModelTest" />
+      <item itemvalue="JUnit.SimpleModelTest.checkMessage" />
+      <item itemvalue="TestNG.CreateMap.main" />
+      <item itemvalue="TestNG.CreateMap.main2" />
+      <item itemvalue="TestNG.CreateMap.main3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollegeKeySet" />
-        <item itemvalue="Application.College" />
-        <item itemvalue="TestNG.Match.main" />
-        <item itemvalue="TestNG.StreamTest1.main20" />
-        <item itemvalue="TestNG.StreamTest1.main19" />
+        <item itemvalue="TestNG.CreateMap.main3" />
+        <item itemvalue="TestNG.CreateMap.main2" />
+        <item itemvalue="TestNG.CreateMap.main" />
+        <item itemvalue="JUnit.SimpleModelTest" />
+        <item itemvalue="JUnit.SimpleModelTest.checkMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +492,55 @@
       <option name="project" value="LOCAL" />
       <updated>1711302476158</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="any">
+      <option name="closed" value="true" />
+      <created>1711358218751</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711358218751</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Pipeline examples">
+      <option name="closed" value="true" />
+      <created>1711362578245</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1711362578245</updated>
+    </task>
+    <task id="LOCAL-00026" summary="0. Stream API улучшения [#58167]">
+      <option name="closed" value="true" />
+      <created>1711366435638</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711366435638</updated>
+    </task>
+    <task id="LOCAL-00027" summary="0. Stream API улучшения [#58167]">
+      <option name="closed" value="true" />
+      <created>1711371010882</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1711371010882</updated>
+    </task>
+    <task id="LOCAL-00028" summary="0. Stream API улучшения [#58167] Student">
+      <option name="closed" value="true" />
+      <created>1711374658436</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1711374658436</updated>
+    </task>
+    <task id="LOCAL-00029" summary="how to create map">
+      <option name="closed" value="true" />
+      <created>1711802733360</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1711802733360</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +585,12 @@
     <MESSAGE value=".stream.reduce() vs .parallelStream().reduce()" />
     <MESSAGE value="noneMatch(), anyMatch() и allMatch()" />
     <MESSAGE value=".map().keySet()" />
-    <option name="LAST_COMMIT_MESSAGE" value=".map().keySet()" />
+    <MESSAGE value="any" />
+    <MESSAGE value="Pipeline examples" />
+    <MESSAGE value="0. Stream API улучшения [#58167]" />
+    <MESSAGE value="0. Stream API улучшения [#58167] Student" />
+    <MESSAGE value="how to create map" />
+    <option name="LAST_COMMIT_MESSAGE" value="how to create map" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
