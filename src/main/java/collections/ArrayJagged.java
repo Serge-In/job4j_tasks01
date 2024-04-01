@@ -196,4 +196,154 @@ public class ArrayJagged {
         System.out.println(input[0][0]); // 0
         System.out.println(input[2][0]); // 30
     }
+
+    @Test
+    void main9() {
+        int[][] input = {{0, 1}, {}, {30}};
+        int i = 0;
+        for (int[] el1 : input) {
+            for (int el2 : el1) {
+                i++;
+                System.out.println("i = " + i + " el2 = " + el2); //
+            }
+        }
+        //i = 1 el2 = 0
+        //i = 2 el2 = 1
+        //i = 3 el2 = 30
+    }
+
+    @Test
+    void main10() {
+        int[][] input = {{0, 1}, {}, {30}};
+
+        for (int i = 0; i < input.length; i++) {
+            for (int j = 0; j < input[i].length; j++) {
+                System.out.println("i = " + i + ", j = " + j + ", el2 = " + input[i][j]); //
+            }
+        }
+//        i = 0, j = 0, el2 = 0
+//        i = 0, j = 1, el2 = 1
+//        i = 2, j = 0, el2 = 30
+    }
+
+    @Test
+    void main11() {
+        int[][] input = {{}, {}, {}};
+        int i = 0;
+        for (int[] el1 : input) {
+            for (int el2 : el1) {
+                i++;
+                System.out.println("i = " + i + " el2 = " + el2); // пусто
+            }
+        }
+    }
+
+    @Test
+    void main12() {
+        int[][] input = {{}, {}, {}};
+
+        for (int i = 0; i < input.length; i++) {
+            for (int j = 0; j < input[i].length; j++) {
+                System.out.println("i = " + i + ", j = " + j + ", el2 = " + input[i][j]); // пусто
+            }
+        }
+    }
+
+    @Test
+    void main13() {
+        int[][] input = {};
+        int i = 0;
+        for (int[] el1 : input) {
+            for (int el2 : el1) {
+                i++;
+                System.out.println("i = " + i + " el2 = " + el2); // пусто
+            }
+        }
+    }
+
+    @Test
+    void main14() {
+        int[][] input = {};
+        for (int i = 0; i < input.length; i++) {
+            for (int j = 0; j < input[i].length; j++) {
+                System.out.println("i = " + i + ", j = " + j + ", el2 = " + input[i][j]); // пусто
+            }
+        }
+    }
+
+    /**
+     * пробую сделать метод проверки следующего значения двумерного массива
+     * этот вариант неверный
+     */
+    @Test
+    boolean hasNext(int[][] input, int row, int col) {
+        if (input.length == 0) {
+            return false;
+        }
+        System.out.println("input.length = " + input.length);
+        return  row < input.length || col < input[row].length;
+    }
+
+    @Test
+    void main15() {
+        System.out.println(hasNext(new int[][]{}, 0, 0)); // false
+        System.out.println(hasNext(new int[][]{{}}, 0, 0)); // input.length = 1 true --> НЕПРАВИЛЬНО!
+    }
+
+
+    /**
+     * второй вариант
+     */
+    @Test
+    boolean hasNext2(int[][] input, int row, int col) {
+        if (input.length == 0 || row >= input.length) {
+            return false;
+        }
+        System.out.println("input.length = " + input.length);
+        if (col + 1 < input[row].length
+            || ((row + 1 < input.length && input[row + 1].length > 0))) {
+            return true;
+        }
+        return false;
+    }
+
+    @Test
+    void main16() {
+        System.out.println(hasNext2(new int[][]{}, 0, 0)); // false
+        System.out.println(hasNext2(new int[][]{{}}, 0, 0)); // false
+        System.out.println(hasNext2(new int[][]{{}, {}, {}}, 0, 0)); // false
+        System.out.println(hasNext2(new int[][]{{}, {}, {1}}, 0, 0)); // false --> НЕПРАВИЛЬНО!!!
+    }
+
+    /**
+     * третий вариант
+     */
+    @Test
+    boolean hasNext3(int[][] input, int row, int col) {
+        if (input.length == 0 || row >= input.length) {
+            return false;
+        }
+
+        for (int i = row; i < input.length; i++) {
+            for (int j = col; j < input[i].length; j++) {
+
+                System.out.println("i = " + i + ", j = " + j + ", el2 = " + input[i][j]); // пусто
+            }
+        }
+
+        if (col + 1 < input[row].length
+                || (row + 1 < input.length
+                && input[row + 1].length > 0)) {
+            return true;
+        }
+        return false;
+    }
+
+    @Test
+    void main17() {
+        System.out.println(hasNext2(new int[][]{}, 0, 0)); // false
+        System.out.println(hasNext2(new int[][]{{}}, 0, 0)); // false
+        System.out.println(hasNext2(new int[][]{{}, {}, {}}, 0, 0)); // false
+        System.out.println(hasNext2(new int[][]{{}, {}, {1}}, 0, 0)); // false --> НЕПРАВИЛЬНО!!!
+    }
 }
