@@ -3,6 +3,7 @@ package collections;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 /**
  * 2024-04-10
@@ -316,34 +317,49 @@ public class ArrayJagged {
     }
 
     /**
-     * третий вариант
+     * третий вариант - работает!
      */
     @Test
     boolean hasNext3(int[][] input, int row, int col) {
         if (input.length == 0 || row >= input.length) {
             return false;
         }
-
+        int colNext = col + 1;
         for (int i = row; i < input.length; i++) {
-            for (int j = col; j < input[i].length; j++) {
-
-                System.out.println("i = " + i + ", j = " + j + ", el2 = " + input[i][j]); // пусто
+            for (int j = colNext; j < input[i].length; j++) {
+                System.out.print("next el = " + input[i][j] + " in position: i = " + i + ", j = " + j + " "); // пусто
+                    return true;
             }
-        }
-
-        if (col + 1 < input[row].length
-                || (row + 1 < input.length
-                && input[row + 1].length > 0)) {
-            return true;
+            colNext = 0;
         }
         return false;
     }
 
     @Test
     void main17() {
-        System.out.println(hasNext2(new int[][]{}, 0, 0)); // false
-        System.out.println(hasNext2(new int[][]{{}}, 0, 0)); // false
-        System.out.println(hasNext2(new int[][]{{}, {}, {}}, 0, 0)); // false
-        System.out.println(hasNext2(new int[][]{{}, {}, {1}}, 0, 0)); // false --> НЕПРАВИЛЬНО!!!
+        System.out.println(hasNext3(new int[][]{}, 0, 0)); // false
+        System.out.println(hasNext3(new int[][]{{}}, 0, 0)); // false
+        System.out.println(hasNext3(new int[][]{{}, {}, {}}, 0, 0)); // false
+        System.out.println(hasNext3(new int[][]{{}, {}, {1}}, 0, 0)); // true
+        System.out.println(hasNext3(new int[][]{{0}, {}, {1}}, 0, 0)); // true
+        System.out.println(hasNext3(new int[][]{{0}, {}, {1, 2}}, 0, 0)); // true
+        System.out.println(hasNext3(new int[][]{{0}, {}, {1, 2}}, 0, 1)); // true
+        System.out.println(hasNext3(new int[][]{{}, {}, {1, 2}}, 0, 1)); // true
+        System.out.println(hasNext3(new int[][]{{}, {}, {1, 2}}, 1, 0)); // true
+        System.out.println(hasNext3(new int[][]{{}, {}, {1, 2}}, 2, 1)); // false
+    }
+
+    @Test
+    void main18() {
+        boolean is = false;
+        System.out.println("boolean is = " + is); // false
+    }
+
+    @Test
+    void main19() {
+        int[] arr = {1, 2, 3};
+
+        System.out.println("boolean is = "); // false
+
     }
 }
