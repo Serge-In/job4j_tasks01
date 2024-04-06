@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8c9a70c-1262-481c-9972-2865dd4f95e4" name="Changes" comment="how to create map">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exeption/SimpleModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exeption/SimpleModelTest.java" afterDir="false" />
+    <list default="true" id="b8c9a70c-1262-481c-9972-2865dd4f95e4" name="Changes" comment="0.2. Внутри ArrayList [#504814]">
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/linkedlist/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generic/GenericUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generic/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generic/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generic/RowType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generic/RowTypeUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/iterator/MatrixIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iterator/MatrixIteratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/arrayList/test2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/arrayList/test2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ArrList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/arrayList/methods/ArrList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ListCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/arrayList/methods/ListCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ListDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/arrayList/methods/ListDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ListRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/arrayList/methods/ListRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ListUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/arrayList/methods/ListUpdate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +31,9 @@
       <list>
         <option value="Kotlin Worksheet" />
         <option value="Clojure Namespace" />
-        <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
+        <option value="JUnit5 Test Class" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -57,6 +70,8 @@
     "Application.ArrayReturn.executor": "Run",
     "Application.College.executor": "Run",
     "Application.CollegeKeySet.executor": "Run",
+    "Application.GenericUsage.executor": "Run",
+    "Application.Generics.executor": "Run",
     "Application.ListLambdaUsage.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Maybe.executor": "Run",
@@ -73,26 +88,87 @@
     "Application.Student.executor": "Run",
     "Application.Student2.executor": "Run",
     "Application.stream.student.mytest.Student.executor": "Run",
+    "JUnit.ArrayIteratorTest.whenReadSequence.executor": "Run",
+    "JUnit.MatrixIteratorTest.executor": "Run",
+    "JUnit.MatrixIteratorTest.when4El.executor": "Debug",
+    "JUnit.MatrixIteratorTest.whenEmpty.executor": "Run",
+    "JUnit.MatrixIteratorTest.whenEmptyThenNext.executor": "Debug",
+    "JUnit.MatrixIteratorTest.whenMultiHasNext.executor": "Run",
+    "JUnit.MatrixIteratorTest.whenNoElements.executor": "Debug",
+    "JUnit.MatrixIteratorTest.whenRowHasDiffSize.executor": "Debug",
     "JUnit.PhoneDictionaryFunc2Test.executor": "Run",
     "JUnit.PhoneDictionaryFuncTest.executor": "Run",
     "JUnit.SimpleModelTest.checkGetName.executor": "Run",
     "JUnit.SimpleModelTest.checkMessage.executor": "Run",
     "JUnit.SimpleModelTest.executor": "Run",
+    "JUnit.SimpleSetTest.when4AddAndAddFirstThenFalse.executor": "Debug",
     "JUnit.StudentLevelTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ArrList.main.executor": "Run",
+    "TestNG.ArrList.main1.executor": "Run",
+    "TestNG.ArrList.main2.executor": "Run",
+    "TestNG.ArrayJagged.main.executor": "Run",
+    "TestNG.ArrayJagged.main1.executor": "Run",
+    "TestNG.ArrayJagged.main10.executor": "Run",
+    "TestNG.ArrayJagged.main11.executor": "Run",
+    "TestNG.ArrayJagged.main13.executor": "Run",
+    "TestNG.ArrayJagged.main14.executor": "Run",
+    "TestNG.ArrayJagged.main15.executor": "Run",
+    "TestNG.ArrayJagged.main16.executor": "Run",
+    "TestNG.ArrayJagged.main17.executor": "Run",
+    "TestNG.ArrayJagged.main18.executor": "Run",
+    "TestNG.ArrayJagged.main2.executor": "Run",
+    "TestNG.ArrayJagged.main4.executor": "Run",
+    "TestNG.ArrayJagged.main5.executor": "Run",
+    "TestNG.ArrayJagged.main6.executor": "Run",
+    "TestNG.ArrayJagged.main7.executor": "Run",
+    "TestNG.ArrayJagged.main8.executor": "Run",
+    "TestNG.ArrayJagged.main9.executor": "Run",
     "TestNG.ArrayReturn.main.executor": "Run",
     "TestNG.ArrayReturn.main1.executor": "Run",
     "TestNG.ArrayReturn.main2.executor": "Run",
     "TestNG.CreateMap.main.executor": "Run",
     "TestNG.CreateMap.main2.executor": "Run",
     "TestNG.CreateMap.main3.executor": "Run",
+    "TestNG.GenericUsage.main2.executor": "Run",
+    "TestNG.GenericUsage.main3.executor": "Run",
+    "TestNG.GenericUsage.main4.executor": "Run",
+    "TestNG.GenericUsage.main5.executor": "Run",
+    "TestNG.GenericUsage.main6.executor": "Run",
+    "TestNG.GenericUsage.main7.executor": "Run",
+    "TestNG.GenericUsage.main8.executor": "Run",
+    "TestNG.ListAdd.main2.executor": "Run",
+    "TestNG.ListAdd.main4.executor": "Run",
+    "TestNG.ListDelete.main1.executor": "Run",
+    "TestNG.ListDelete.main2.executor": "Run",
+    "TestNG.ListDelete.main4.executor": "Run",
+    "TestNG.ListDelete.main5.executor": "Run",
+    "TestNG.ListDelete.main6.executor": "Run",
+    "TestNG.ListDelete.main7.executor": "Run",
+    "TestNG.ListDelete.main8.executor": "Run",
+    "TestNG.ListGet.executor": "Run",
+    "TestNG.ListGet.main.executor": "Run",
+    "TestNG.ListGet.main1.executor": "Run",
+    "TestNG.ListGet.main2.executor": "Run",
+    "TestNG.ListGet.main3.executor": "Run",
+    "TestNG.ListGet.main4.executor": "Run",
+    "TestNG.ListGet.main5.executor": "Run",
+    "TestNG.ListGet.main6.executor": "Run",
+    "TestNG.ListRead.executor": "Run",
+    "TestNG.ListSet.main.executor": "Run",
+    "TestNG.ListSet.main1.executor": "Run",
+    "TestNG.ListTest.main.executor": "Run",
+    "TestNG.ListTest.main1.executor": "Run",
+    "TestNG.ListTest.main2.executor": "Run",
     "TestNG.Match.main.executor": "Run",
     "TestNG.NewMethods.main1.executor": "Run",
     "TestNG.NewMethods.main2.executor": "Run",
     "TestNG.NewMethods.main3.executor": "Run",
     "TestNG.NewMethods.main6.executor": "Run",
+    "TestNG.RowType.main.executor": "Run",
+    "TestNG.RowTypeUsage.main.executor": "Run",
     "TestNG.StreamTest1.main10.executor": "Run",
     "TestNG.StreamTest1.main11.executor": "Run",
     "TestNG.StreamTest1.main12.executor": "Run",
@@ -112,6 +188,7 @@
     "TestNG.StreamTest1.main7.executor": "Run",
     "TestNG.StreamTest1.main8.executor": "Run",
     "TestNG.StreamTest1.main9.executor": "Run",
+    "TestNG.StreamTest2.executor": "Debug",
     "TestNG.StreamTest3.main1.executor": "Run",
     "TestNG.StreamTest3.main2.executor": "Run",
     "TestNG.StreamTest3.main20.executor": "Run",
@@ -127,8 +204,8 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/projects/job4j_tasks01/src/test/java",
-    "last_opened_file_path": "C:/projects/job4j_design",
+    "last_directory_selection": "C:/projects/job4j_tasks01/src/test/java/iterator",
+    "last_opened_file_path": "C:/projects/job4j_tasks01",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -160,11 +237,11 @@
       <recent name="if_114" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="iterator" />
+      <recent name="collection" />
       <recent name="exeption" />
       <recent name="stream.improved" />
       <recent name="search" />
-      <recent name="collections.test9exam" />
-      <recent name="collections.test8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stream.improved" />
@@ -175,7 +252,7 @@
     </key>
   </component>
   <component name="ReplState" timestamp="1706766543994">{:repl-history {:ide [], :local [], :remote []}}</component>
-  <component name="RunManager" selected="TestNG.CreateMap.main3">
+  <component name="RunManager" selected="TestNG.Test1.main1">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -205,47 +282,16 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="SimpleModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrList.main" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exeption.*" />
+          <option name="PATTERN" value="collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exeption" />
-      <option name="MAIN_CLASS_NAME" value="exeption.SimpleModelTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleModelTest.checkMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tracker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exeption.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="exeption" />
-      <option name="MAIN_CLASS_NAME" value="exeption.SimpleModelTest" />
-      <option name="METHOD_NAME" value="checkMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateMap.main" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="tracker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="map" />
-      <option name="MAIN_CLASS_NAME" value="map.CreateMap" />
+      <option name="PACKAGE_NAME" value="collections.list" />
+      <option name="MAIN_CLASS_NAME" value="collections.list.ArrList" />
       <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -254,16 +300,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateMap.main2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrList.main1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="map" />
-      <option name="MAIN_CLASS_NAME" value="map.CreateMap" />
+      <option name="PACKAGE_NAME" value="collections.list" />
+      <option name="MAIN_CLASS_NAME" value="collections.list.ArrList" />
+      <option name="METHOD_NAME" value="main1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrList.main2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="collections.list" />
+      <option name="MAIN_CLASS_NAME" value="collections.list.ArrList" />
       <option name="METHOD_NAME" value="main2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -272,17 +336,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateMap.main3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ListDelete.main8" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="map" />
-      <option name="MAIN_CLASS_NAME" value="map.CreateMap" />
-      <option name="METHOD_NAME" value="main3" />
+      <option name="PACKAGE_NAME" value="collections.list" />
+      <option name="MAIN_CLASS_NAME" value="collections.list.ListDelete" />
+      <option name="METHOD_NAME" value="main8" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.main1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="collections.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="collections.linkedlist.Test1" />
+      <option name="METHOD_NAME" value="main1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -291,19 +373,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SimpleModelTest" />
-      <item itemvalue="JUnit.SimpleModelTest.checkMessage" />
-      <item itemvalue="TestNG.CreateMap.main" />
-      <item itemvalue="TestNG.CreateMap.main2" />
-      <item itemvalue="TestNG.CreateMap.main3" />
+      <item itemvalue="TestNG.ArrList.main" />
+      <item itemvalue="TestNG.ArrList.main1" />
+      <item itemvalue="TestNG.ArrList.main2" />
+      <item itemvalue="TestNG.ListDelete.main8" />
+      <item itemvalue="TestNG.Test1.main1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CreateMap.main3" />
-        <item itemvalue="TestNG.CreateMap.main2" />
-        <item itemvalue="TestNG.CreateMap.main" />
-        <item itemvalue="JUnit.SimpleModelTest" />
-        <item itemvalue="JUnit.SimpleModelTest.checkMessage" />
+        <item itemvalue="TestNG.Test1.main1" />
+        <item itemvalue="TestNG.ArrList.main2" />
+        <item itemvalue="TestNG.ArrList.main1" />
+        <item itemvalue="TestNG.ArrList.main" />
+        <item itemvalue="TestNG.ListDelete.main8" />
       </list>
     </recent_temporary>
   </component>
@@ -540,7 +622,79 @@
       <option name="project" value="LOCAL" />
       <updated>1711802733360</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="* 4. Утверждения с исключениями [#504886]">
+      <option name="closed" value="true" />
+      <created>1711811583123</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1711811583123</updated>
+    </task>
+    <task id="LOCAL-00031" summary="6. Отладчик в IDEA [#504947]">
+      <option name="closed" value="true" />
+      <created>1711904910214</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1711904910214</updated>
+    </task>
+    <task id="LOCAL-00032" summary="1. Что такое итератор. [#4951]">
+      <option name="closed" value="true" />
+      <created>1711905669933</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1711905669933</updated>
+    </task>
+    <task id="LOCAL-00033" summary="ArrayJagged">
+      <option name="closed" value="true" />
+      <created>1711975308798</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1711975308798</updated>
+    </task>
+    <task id="LOCAL-00034" summary="ArrayJagged">
+      <option name="closed" value="true" />
+      <created>1711998910347</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1711998910347</updated>
+    </task>
+    <task id="LOCAL-00035" summary="ArrayJagged">
+      <option name="closed" value="true" />
+      <created>1712009979532</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1712009979532</updated>
+    </task>
+    <task id="LOCAL-00036" summary="0.1. Интерфейс List CRUD [#4953]">
+      <option name="closed" value="true" />
+      <created>1712340914597</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1712340914597</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Array">
+      <option name="closed" value="true" />
+      <created>1712341508737</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1712341508737</updated>
+    </task>
+    <task id="LOCAL-00038" summary="0.2. Внутри ArrayList [#504814]">
+      <option name="closed" value="true" />
+      <created>1712346059518</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1712346059518</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,11 +721,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="53. Преобразовать трехзначное число в зависимости от условия refactor" />
-    <MESSAGE value=" 1. Интерфейс Collection [#504820]" />
-    <MESSAGE value=" 1. Интерфейс Collection [#504820] ref" />
-    <MESSAGE value="update" />
     <MESSAGE value="comparator" />
     <MESSAGE value="1. Организовать сортировку User [#10034]" />
     <MESSAGE value="TreeSet" />
@@ -590,7 +739,40 @@
     <MESSAGE value="0. Stream API улучшения [#58167]" />
     <MESSAGE value="0. Stream API улучшения [#58167] Student" />
     <MESSAGE value="how to create map" />
-    <option name="LAST_COMMIT_MESSAGE" value="how to create map" />
+    <MESSAGE value="* 4. Утверждения с исключениями [#504886]" />
+    <MESSAGE value="6. Отладчик в IDEA [#504947]" />
+    <MESSAGE value="1. Что такое итератор. [#4951]" />
+    <MESSAGE value="ArrayJagged" />
+    <MESSAGE value="0.1. Интерфейс List CRUD [#4953]" />
+    <MESSAGE value="Array" />
+    <MESSAGE value="0.2. Внутри ArrayList [#504814]" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.2. Внутри ArrayList [#504814]" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/stream/StreamTest2.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/iterator/MatrixIterator.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/iterator/MatrixIterator.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/iterator/MatrixIterator.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

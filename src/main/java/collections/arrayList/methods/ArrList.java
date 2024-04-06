@@ -1,8 +1,7 @@
-package collections.list;
+package collections.arrayList.methods;
 
 import org.testng.annotations.Test;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

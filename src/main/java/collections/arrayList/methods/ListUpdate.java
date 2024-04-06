@@ -1,4 +1,4 @@
-package collections.list;
+package collections.arrayList.methods;
 
 import org.testng.annotations.Test;
 
