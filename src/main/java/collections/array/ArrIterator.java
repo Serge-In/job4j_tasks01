@@ -24,7 +24,33 @@ public class ArrIterator {
     public static void main() {
         int [] arr = {1,2,3};
         System.out.println(arr);//[1, 2, 3]
+    }
 
+    @Test
+    public static void main1() {
+        List<Integer> templist = List.of(1, 2, 3, 4);
+        List<Integer> list = new ArrayList<>(templist);
 
+        System.out.println(list);//[1, 2, 3, 4]
+        Iterator<Integer> iterator = list.iterator();
+        System.out.println(iterator.next());//1
+
+        /**
+         * set не влияет на поведение итератора (итератор не выдает исключения)
+         */
+        System.out.println(list.set(0, 10)); //1 // set не влияет на поведение итератора (итератор не выдает исключения)
+        System.out.println(list);//[10, 2, 3, 4]
+        System.out.println(iterator.hasNext());//true
+        System.out.println(iterator.next());//2
+
+        /**
+         * remove неоднозначно влияет на поведение итератора
+         * (hasNext не выдает исключение, но если remove 1 ячейка, а в итераторе оставалась более 1 не отданой, то hasNext вернет true)
+         * а next вернет исключение!!! те это косяк!
+         */
+        System.out.println(list.remove(0));//10
+        System.out.println(list); //[2, 3, 4]
+        System.out.println(iterator.hasNext());//true
+        //System.out.println(iterator.next());//java.util.ConcurrentModificationException
     }
 }
